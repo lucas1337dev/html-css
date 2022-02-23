@@ -4,4 +4,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
-Clique <a href="https://lucas1337dev.github.io/html-css/desafios/desafio004/index">aqui</a> para visitar meu primeiro site!
+<a href="https://lucas1337dev.github.io/html-css/desafios/desafio004/index.html">Executar meu primeiro site</a>
