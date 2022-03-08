@@ -47,14 +47,14 @@ header {
     border-bottom: 1px solid white;
 }
 
-.title {
+p.title {
     color: white;
     font-size: 35px;
     text-align: center;
     margin: 10px 0px;
 }
 
-.container {
+div.container {
     max-width: 1200px;
     margin: 0 auto;
     justify-content: center;
@@ -68,7 +68,7 @@ header {
     height: 300px;
 }
 
-.categoria {
+div.categoria {
     max-width: 440px;
     color: white;
 }
