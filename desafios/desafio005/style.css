@@ -14,7 +14,7 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 header {
@@ -45,6 +45,7 @@ p > a {
 
 section {
     font-family: var(--font3);
+    line-height: 2em;
 }
 
 .normal {
@@ -92,4 +93,18 @@ section {
     background-color: rgba(0, 0, 0, 0.493);
     width: 800px;
     padding: 10px;
+}
+
+footer {
+    background-color: black;
+    font-family: var(--font1);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
 }
