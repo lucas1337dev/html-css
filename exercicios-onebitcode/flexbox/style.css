@@ -5,7 +5,7 @@
     --color2: #19191d;
     --color3: #d8d8d82a;
     --color4: #ff0044;
-    --color5: #ff0044c9;
+    --color5: #ff004457;
 }
 
 * {
@@ -16,8 +16,6 @@
 
     font-family: "Kanit", sans-serif;
 }
-
-
 
 body {
     width: 100%;
@@ -37,6 +35,7 @@ header {
 
 .logo {
     width: 45px;
+    display: flex;
 }
 
 .nav-menu {
@@ -61,11 +60,11 @@ p.title {
     color: white;
     font-size: 35px;
     text-align: center;
-    margin: 10px 0px;
+    margin: 10px 0px 20px;
 }
 
 div.container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
     justify-content: center;
     display: flex;

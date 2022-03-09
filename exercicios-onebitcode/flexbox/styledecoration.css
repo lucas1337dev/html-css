@@ -4,8 +4,8 @@
     --color1: #212226;
     --color2: #19191d;
     --color3: #d8d8d82a;
-    --color4: #016b06;
-    --color5: #016b0657;
+    --color4: #914100;
+    --color5: #91410057;
 }
 
 * {
@@ -69,7 +69,7 @@ p.title {
     color: white;
     text-align: center;
     font-size: 35px;
-    margin: 10px 0px 20px;
+    padding: 10px 0px 20px;
 }
 
 .item {
