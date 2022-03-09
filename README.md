@@ -1,9 +1,11 @@
 # html-css
- Curso de HTML5 e CSS3 do CursoemVideo
+HTML5/CSS3 Projects
 
 
-Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
+Nice repositories to take a look!
 
-<a href="https://lucas1337dev.github.io/html-css/desafios/desafio004/index.html">Site Android</a>
+<a href="https://lucas1337dev.github.io/html-css/desafios/desafio004/index.html">Android Project</a>
 
-<a href="https://lucas1337dev.github.io/html-css/desafios/desafio005/index.html">Site Cordel</a>
+<a href="https://lucas1337dev.github.io/html-css/desafios/desafio005/index.html">Cordel Project</a>
+
+<a href="https://github.com/lucas1337dev/html-css/blob/main/exercicios-onebitcode/flexbox/index.html">Shop Project</a>
