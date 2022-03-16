@@ -4,17 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        header{
+            display: flex;
+            align-items: center;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td{
+            border: 1px solid black;
+        }
+    </style>
     <title>SpaceX</title>
 </head>
 <body>
     <header>
-        <img src="imgs/logo.png" alt="SpaceX">
+        <a href="index.html"><img src="imgs/logo.png" alt="SpaceX"></a>
         <nav>
-            <a href="#">The Spaceships</a>
-            <a href="#">Hire Us</a>
+            <a href="spaceships.html">The Spaceships</a>
+            <a href="hire.html">Hire Us</a>
         </nav>
     </header>
+    <hr>
     <main>
         <section>
             <h3>Space Exploration Technologies Corp.</h3>
@@ -23,7 +41,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni distinctio vero debitis itaque tempora eius laborum enim adipisci eaque libero, quia autem corporis saepe architecto eveniet, voluptate ipsa, reprehenderit accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio minus amet veritatis omnis minima quo! Neque ea, natus voluptas, accusamus enim est ipsum temporibus fuga veniam molestiae modi, alias aut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis provident molestias officiis eligendi praesentium. Nobis ad vitae ipsa at maxime, quae debitis maiores quas quasi est non, autem suscipit id!</p>
         </section>
         <section>
-            <h3>Our Services</h3>
+            <h3 style="margin-bottom: 5px;">Our Services</h3>
             <ul>
                 <li>Nam quis nulla. Integer malesuada</li>
                 <li>In in enim a arcu imperdiet malesuada</li>
@@ -31,8 +49,8 @@
                 <li>Aenenan id metus id velit ullamcorper pulvinar</li>
             </ul>
         </section>
-        <section>
-            <h3>Prices</h2>
+        <section class="third">
+            <h3>Prices</h3>
             <table>
                 <thead>
                     <tr>
@@ -43,19 +61,19 @@
                 <tbody>
                     <tr>
                         <td>Nam quis nulla. Integer malesuada</td>
-                        <td>$450</td>
+                        <td class="num">$450</td>
                     </tr>
                     <tr>
                         <td>In in enim a arcu imperdiet malesuada</td>
-                        <td>$122</td>
+                        <td class="num">$122</td>
                     </tr>
                     <tr>
                         <td>Sed vel lectus. Donec odio urna</td>
-                        <td>$333</td>
+                        <td class="num">$333</td>
                     </tr>
                     <tr>
                         <td>Aenenan id metus id velit ullamcorper pulvinar</td>
-                        <td>$444</td>
+                        <td class="num">$444</td>
                     </tr>
                 </tbody>
             </table>
