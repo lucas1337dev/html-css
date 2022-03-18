@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto&display=swap');
+
+body {
+    margin: 0;
+}
+
+.post {
+    background-color: #fffafa;
+    margin: 20px auto 0 auto;
+    width: 70%;
+    padding: 20px;
+    height: 100%;
+}
+
+.date {
+    color: #008080;
+    font-family: 'Roboto';
+    margin-top: 20px;
+}
+
+.postContent {
+    font-family: 'Open Sans';
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    
+}
+
+hr {
+    width: 75%;
+}
