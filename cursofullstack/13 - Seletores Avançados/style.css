@@ -1,0 +1,23 @@
+/* Seletor Universal * { 
+    border: 2px solid black;
+} */
+
+/* Seletor de descendência li a {
+    color: gray;
+} */
+
+/* Seletor pai para filho li > a {
+    color: red;
+} */
+
+/* Seletor adjacente(item que vem logo após o outro) h1 + h4 {
+    border: 2px dashed black;
+} */
+
+/* Seletor por atributo a[href='#'] {
+    color: orange;
+} */
+
+/* Pseudo-classe li:nth-of-type(odd) {
+    color: purple   ;
+} */
