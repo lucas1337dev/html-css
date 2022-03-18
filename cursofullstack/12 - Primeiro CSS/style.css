@@ -1,0 +1,21 @@
+h1 {
+    color: purple;
+    font-size: 50px;
+    border: 2px dashed yellow;
+}
+
+.moon {
+    color: orange;
+    font-size: 1.5em;
+}
+
+#europa {
+    font-size: 2em;
+    text-decoration: dashed;
+}
+
+body {
+    background-image: url('https://www.spacex.com/static/images/backgrounds-2022/sl4-10/post-launch/Homepage_Starlink_4-10_Desktop.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
