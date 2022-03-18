@@ -17,4 +17,8 @@
   }
   .flex-item {
     background-color: #ff0044;
+    /* flex-basis: 450px; (base a partir do width) */
+    /* flex-grow: 1; (preenchimento de espaço que sobrou - pode fazer um específico pra um item) */
+    /* flex-shrink: 1; (diminuir conteúdo igualmente ou não - pode fazer um específico pra um item) */
+    flex: 1 1 150px; /* (shorthand - flex-grow/flex-shrink/flex-basis) */
   }
