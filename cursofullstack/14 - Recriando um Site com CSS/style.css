@@ -1,0 +1,18 @@
+body {
+    background-color: #2c3e50;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > h3 {
+    color: #f1c40f;
+}
+
+.day {
+    background-color: #f1c40f;
+    color: black;
+}
+
+.class {
+    color: #e74c3c;
+}
