@@ -10,9 +10,13 @@
     min-height: 100vh;
     display: flex;
     gap: 10px;
-    /* align-items: center; (flex-start/center/flex-end) alinhar verticalmente */
-    /* justify-content: center; (flex-start/center/flex-end) alinhar horizontalmente */
-    /* align-content: flex-start; (flex-start/center/flex-end) remover espaçamentos */
+
+    /* align-items: center; (flex-start/center/flex-end/stetch/baseline) (strech = alinha os itens até preencher o container) (baseline = alinha os itens do tamanho do alinhamento de base deles) alinhar verticalmente */
+
+    /* justify-content: center; (flex-start/center/flex-end/space-around/-space-between) (space-around = mostra os itens com espaço antes, entre e depois) (space-between = mostra os itens com espaço entre eles) alinhar horizontalmente */
+
+    /* align-content: flex-start; (flex-start/center/flex-end/space-around/space-between/stretch) remover espaçamentos */
+
     /*flex-flow: row wrap; (shorthand - direction/wrap)*/
   }
   .flex-item {
