@@ -1,0 +1,23 @@
+.btn {
+    width: 125px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    &.btnAmarelo {
+        background-color: yellow;
+    }
+
+    &.btnAzul {
+        background-color: blue;
+        color: white;
+    }
+}
+
+.btnRoxo {
+    background-color: purple;
+    color: white;
+    @extend .btn
+}

@@ -1,0 +1,22 @@
+.btn, .btnRoxo {
+  width: 125px;
+  padding: 10px 0px;
+  border-radius: 20px;
+  display: block;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn.btnAmarelo, .btnAmarelo.btnRoxo {
+  background-color: yellow;
+}
+.btn.btnAzul, .btnAzul.btnRoxo {
+  background-color: blue;
+  color: white;
+}
+
+.btnRoxo {
+  background-color: purple;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
