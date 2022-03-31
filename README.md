@@ -4,7 +4,7 @@ HTML5/CSS3 Projects
 
 Nice repositories to take a look!
 
-<a href="https://lucas1337dev.github.io/html-css/desafios/desafio004/index.html">Android Project</a>
+<a href="https://lucas1337dev.github.io/html-css/clonessites/spotify/home.html">Spotify Project</a>
 
 <a href="https://lucas1337dev.github.io/html-css/desafios/desafio005/index.html">Cordel Project</a>
 
