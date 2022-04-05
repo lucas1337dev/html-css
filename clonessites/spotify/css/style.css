@@ -7,14 +7,14 @@
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
   background-color: #2941ab;
 }
-@media (min-width: 1200px) and (min-width: 1920px) {
+@media (max-width: 1920px) {
   body {
-    background-size: 170%;
+    background-size: 100%;
     background-position: 44% 7%;
   }
 }
@@ -30,6 +30,8 @@ header {
 
 .navMenu {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .logo {
@@ -42,9 +44,9 @@ header {
   color: white;
   list-style: none;
   flex-wrap: wrap;
-  padding: 28px 17px;
+  padding: 0px 17px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .link {
@@ -62,14 +64,6 @@ header {
   padding: 28px 17px;
 }
 
-.title {
-  color: #1ed760;
-  text-align: center;
-  font-size: 156px;
-  font-weight: bold;
-  letter-spacing: -6.24px;
-}
-
 .mainText {
   background-color: #2941ab;
   height: 100vh;
@@ -78,12 +72,23 @@ header {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  line-height: 166px;
+  line-height: 10.375rem;
+  flex-wrap: wrap;
+  max-width: 100;
+}
+
+.title {
+  color: #1ed760;
+  text-align: center;
+  font-size: 9.75rem;
+  font-weight: bold;
+  letter-spacing: -6.24px;
+  flex-wrap: wrap;
 }
 
 .text {
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
   text-align: center;
   color: #1ed760;
   letter-spacing: 0;
@@ -98,7 +103,7 @@ header {
   padding: 14px 32px;
   border: 0px;
   text-align: center;
-  line-height: 20px;
+  line-height: 1.25rem;
   text-decoration: none;
 }
 
@@ -137,6 +142,17 @@ footer {
 
 .footerBox {
   padding: 0px 15px;
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 55%;
+  }
+
+  .logo {
+    width: 99px;
+    height: 45px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
