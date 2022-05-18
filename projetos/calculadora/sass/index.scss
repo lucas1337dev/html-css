@@ -1,0 +1,176 @@
+// Variáveis
+$color1: #2e2e2e;
+$color2: #000000;
+$color3: #ffffff;
+$color4: #3d4346;
+$color5: #363636d2;
+$color6: #576064;
+$color7: #4b4b4bb4;
+
+// Fonte
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+// Body
+body {
+    min-width: 500px;
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+}
+
+// Estilo da calculadora
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    background-color: $color1;
+}
+
+#calculatorKind {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    width: 470px;
+}
+
+.kindText {
+    font-size: 1.5rem;
+    color: $color3;
+    font-weight: 600;
+}
+
+.menu {
+    color: $color3;
+    margin-right: 8px;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 1rem;
+}
+
+.menu:hover {
+    background-color: $color7;
+}
+
+#numberArea {
+    height: 120px;
+    width: 458px;
+    margin-bottom: 2px;
+}
+
+#firstRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 2px;
+    width: 500px;
+}
+
+#secondRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 2px;
+    width: 500px;
+}
+
+#thirdRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 2px;
+    width: 500px;
+}
+
+#fourthRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    margin-bottom: 2px;
+    width: 500px;
+}
+
+#fifthRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2px;
+    width: 500px;
+}
+
+.icon {
+    text-align: center;
+    flex-basis: 50px;
+    color: $color3;
+    background-color: $color2;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.writing {
+    text-align: center;
+    flex-basis: 50px;
+    font-weight: 600;
+    color: $color3;
+    background-color: $color2;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.equals {
+    background-color: $color4;
+}
+
+.writing:hover {
+    background-color: $color5;
+}
+
+.icon:hover {
+    background-color: $color5;
+}
+
+.equals:hover {
+    background-color: $color6;
+}
+
+#barsMenu {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+}
+
+.title {
+    color: #d3d3d3;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 200px;
+    padding: 8px 0px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: $color3;
+    width: 300px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: $color7;
+}
