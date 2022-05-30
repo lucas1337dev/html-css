@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+        .coll {
+            background-color: #ff0043;
+            border: 1px solid black;
+            color: white;
+        }
+
+        h3 {
+            color: white;
+        }
+
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h3 class="mt-2">Responsividade do grid</h3>
+    <div class="row text-center primary">
+        <div class="col coll">1</div>
+        <div class="col coll">2</div>
+        <div class="col coll">3</div>
+        <div class="col coll">4</div>
+        <div class="col coll">5</div>
+        <div class="col coll">6</div>
+        <div class="col coll">7</div>
+        <div class="col coll">8</div>
+        <div class="col coll">9</div>
+        <div class="col coll">10</div>
+        <div class="col coll">11</div>
+        <div class="col coll">12</div>
+    </div>
+    <hr>
+    <h3 class="mt-2">Tamanhos equalizados</h3>
+    <div class="row text-center">
+        <div class="col coll">
+            1 of 2
+        </div>
+        <div class="col coll">
+            2 of 2
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col coll">
+            1 of 3
+        </div>
+        <div class="col coll">
+            2 of 3
+        </div>
+        <div class="col coll">
+            3 of 3
+        </div>
+    </div>
+    <hr>
+    <h3 class="mt-2">Uma coluna com tamanho fixo</h3>
+    <div class="row text-center">
+        <div class="col coll">
+            1 of 3
+        </div>
+        <div class="col-6 coll">
+            2 of 3 (Fixo de 6)
+        </div>
+        <div class="col coll">
+            3 of 3
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col coll">
+            1 of 3
+        </div>
+        <div class="col-5 coll">
+            2 of 3 (Fixo de 5)
+        </div>
+        <div class="col coll">
+            3 of 3
+        </div>
+    </div>
+    <hr>
+    <h3 class="mt-2">Breakpoints</h3>
+    <div class="row text-center">
+        <div class="col-sm coll">col BreakPoint pequeno</div>
+        <div class="col-sm coll">col BreakPoint pequeno</div>
+        <div class="col-sm coll">col BreakPoint pequeno</div>
+        <div class="col-sm coll">col BreakPoint pequeno</div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-8 coll">col-8 BreakPoint Médio</div>
+        <div class="col-md-4 coll">col-4 BreakPoint Médio</div>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

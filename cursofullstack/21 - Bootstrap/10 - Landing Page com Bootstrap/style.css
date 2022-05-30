@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('imgs/backgroundLp.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 100vh;
+}
+
+.formBody {
+    background-color: #131212f1;
+    height: auto;
+    color: #fff;
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.footerParagraph {
+    color: white;
+}
+
+.footerParagraph a {
+    text-decoration: none;
+    color: white;
+}
+
+.footerParagraph a:hover {
+    color: rgb(139, 139, 139);
+}
+
+img {
+    width: 180px;
+}
