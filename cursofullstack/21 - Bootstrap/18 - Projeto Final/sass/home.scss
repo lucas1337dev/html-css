@@ -1,0 +1,102 @@
+.header {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #b9b9b9;
+}
+
+.oneBitLogo {
+    width: 240px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+.container-fluid {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container1 {
+    background-image: url("../imgs/home/01.jpg");
+    min-height: 100vh;
+    color: white;
+}
+
+#button {
+    padding: 15px 35px;
+    border: 2px solid white;
+}
+
+.titlePadding {
+    padding-top: 200px;
+}
+
+.arrowDown {
+    display: inline-block;
+    width: 90px;
+    margin-top: 5px;
+}
+
+.container2 {
+    background-image: url("../imgs/home/03.jpg");
+    min-height: 100vh;
+    color: white;
+}
+
+.shortTitle {
+    width: 550px;
+}
+
+.container3 {
+    background-image: url("../imgs/home/02.gif");
+    min-height: 100vh;
+    color: white;
+    background-size: cover;
+}
+
+.container4 {
+    background-image: url("../imgs/home/04.jpg");
+    min-height: 100vh;
+    color: white;
+}
+
+.mediumTitle {
+    width: 650px;
+}
+
+.footer {
+    background-color: black;
+    height: 15vh;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.obc {
+    color: #555252;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: #b9b9b9;
+}
