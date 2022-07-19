@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: #1b5285;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <div id="msg">Clique em mim</div>
+
+    <script>
+        var p1 = document.getElementsByTagName('p')[1]
+        document.write(`Está escrito assim: ${p1.innerHTML}`) 
+        // var corpo = document.body
+        /* innerText pega apenas o texto
+        innerHTML pega todos os componentes incluindo o strong (nesse caso) */
+
+        // p1.style.color = 'black'
+        // corpo.style.background = 'red'
+
+        /* var d = document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'Estou aguardando' */
+
+        // document.getElementById('msg').innerText = 'Olá'
+        var d = document.querySelector('div#msg') 
+        // Seleciona por meio de ID ou Class do mesmo jeito do CSS
+        d.style.background = 'green'
+    </script>
+</body>
+</html>
